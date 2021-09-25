@@ -9,7 +9,6 @@ function constructNote(message, letters) {
     lettersFreqObj[char] = lettersFreqObj[char] + 1 || 1;
   }
 
-  // loop over the message object
   for (let char in messageFreqObj) {
     if (lettersFreqObj[char] >= messageFreqObj[char]) {
       null;
